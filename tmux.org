@@ -1,0 +1,179 @@
+#+STARTUP: indent
+* :SLIDE:1:
+
+
+
+
+
+*TMUX*
+
+=More Than Just Terminal Splitting=
+
+* :SLIDE:2:
+
+
+
+
+
+*What is tmux?*
+
+* :SLIDE:3:
+
+
+
+
+
+*What is tmux?*
+
+=tmux is a terminal multiplexer...=
+
+* :SLIDE:4:
+
+
+
+
+
+*What is a terminal multiplexer?*
+
+* :SLIDE:5:
+
+
+
+
+
+*What is a terminal multiplexer?*
+
+Enables a number of terminals to be =created=, =accessed=,
+and =controlled= from a single screen.
+
+* :SLIDE:6:
+
+
+
+
+
+*What is a terminal multiplexer?*
+
+Enables a number of terminals to be =created=, =accessed=,
+and =controlled= from a single screen.
+
+Lets you switch easily between several programs in
+one terminal, =detach= them and =reattach= them to a different terminal.
+
+* :SLIDE:7:
+
+
+
+
+
+*Why should I try tmux instead of screen?*
+
+* :SLIDE:8:
+
+
+
+
+
+*Why should I try tmux instead of screen?*
+
+- Under active development
+- Smaller, faster and better memory handling
+- Clearly-defined client-server model
+- Easily scriptable from the shell
+- Clean config file
+- Cleaner, modern, easily extended, BSD-licensed codebase.
+- ...
+
+* :SLIDE:9:
+
+
+
+
+
+*Concept of tmux*
+
+* :SLIDE:10:
+
+
+
+
+
+*Concept of tmux*
+
+Server
+
+* :SLIDE:11:
+
+
+
+
+
+*Concept of tmux*
+
+Server    >   Sessions
+
+* :SLIDE:12:
+
+
+
+
+
+*Concept of tmux*
+
+Server    >   Sessions
+Session   >   Windows
+
+* :SLIDE:13:
+
+
+
+
+
+*Concept of tmux*
+
+Server    >   Sessions
+Session   >   Windows
+Window    >   Panes
+
+* :SLIDE:14:
+
+
+
+
+
+*Client-server model*
+
+* :SLIDE:15:
+
+
+
+
+
+*Client-server model*
+
+#+BEGIN_VERSE
+"In tmux, a session is displayed on screen by a client and all
+ sessions are managed by a single server. The server and each
+ client are separate processes which communicate through a
+ socket in /tmp."
+
+                                              -- tmux man page
+#+END_VERSE
+
+* :SLIDE:16:
+
+
+
+
+
+*Showtime*
+
+:-)
+
+* :SLIDE:17:
+
+
+
+
+
+*Thanks*
